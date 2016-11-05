@@ -16,8 +16,6 @@ gem 'rails-observers', '~> 0.1.2'
 gem 'jquery-ui-rails'
 
 gem 'pg', group: :postgres
-gem 'mysql2', group: :mysql
-gem 'sqlite3', group: :sqlite
 
 group :production do
   gem 'rails_12factor'
@@ -40,4 +38,8 @@ group :development, :test do
   gem 'poltergeist'
   gem 'database_cleaner'
   gem 'quiet_assets'
+
+  # deploy orchestration
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
 end
