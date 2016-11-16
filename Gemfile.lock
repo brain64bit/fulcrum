@@ -261,5 +261,8 @@ DEPENDENCIES
   transitions (= 0.1.9)
   uglifier (>= 2.5.3)
 
+RUBY VERSION
+   ruby 2.2.1p85
+
 BUNDLED WITH
-   1.10.6
+   1.13.6
